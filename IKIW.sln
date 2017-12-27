@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKIW", "IKIW\IKIW.csproj", "{5FACD7C7-2AA8-4AF5-A4A7-8A96995810BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FACD7C7-2AA8-4AF5-A4A7-8A96995810BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FACD7C7-2AA8-4AF5-A4A7-8A96995810BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FACD7C7-2AA8-4AF5-A4A7-8A96995810BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FACD7C7-2AA8-4AF5-A4A7-8A96995810BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD2B4544-3891-4C19-9E7A-0514E7C31D8B}
+	EndGlobalSection
+EndGlobal
