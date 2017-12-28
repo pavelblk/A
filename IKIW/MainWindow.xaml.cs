@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace IKIW
 {
@@ -22,7 +24,39 @@ namespace IKIW
     {
         public MainWindow()
         {
-            InitializeComponent();
+            A();
+            //InitializeComponent();
+
+
+
+
+        }
+
+        public void A()
+        {
+
+            var g = "";
+            using (XmlReader reader = XmlReader.Create(@"D:\IKIW.xml"))
+            {
+                reader.MoveToContent();
+
+                while (!reader.EOF)
+                {
+                    if (reader.NodeType == XmlNodeType.Element && reader.Name == "page")
+                    {
+                        XElement el = XElement.ReadFrom(reader) as XElement;
+                        if (el != null)
+                        {
+
+                        }
+                        // yield return el;
+                    }
+                    else
+                    {
+                        reader.Read();
+                    }
+                }
+            }
         }
     }
 }
